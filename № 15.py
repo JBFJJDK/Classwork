@@ -1,0 +1,7 @@
+a, b, s = int(input()), int(input()), input()
+if(b == 0 and s == '/'): print("На ноль делить нельзя!")
+elif(s == '+'): print (a+b)
+elif(s == '*'): print (a*b)
+elif(s == '/'): print (a/b)
+elif(s == '-'): print (a-b)
+else: print("Неверная операция")
